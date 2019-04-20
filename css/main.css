@@ -1,1 +1,52 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+#background1 {
+  height: 100%;
+  width: 100%;
+  background: url("../img/background_top.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background1 #scrollDownButton {
+  position: absolute;
+  background-color: rgba(173, 216, 230, 0.068);
+  border: none;
+  outline: none;
+  height: 10vh;
+  width: 10vw;
+  cursor: pointer;
+  z-index: 2;
+  top: 90vh;
+  left: 45vw;
+}
+
+#background2 {
+  height: 100%;
+  width: 100%;
+  background: url("../img/background_bottom.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background2 #scrollTopButton {
+  position: absolute;
+  background-color: rgba(173, 216, 230, 0.068);
+  border: none;
+  outline: none;
+  height: 10vh;
+  width: 10vw;
+  cursor: pointer;
+  z-index: 2;
+  left: 45vw;
+}
+/*# sourceMappingURL=main.css.map */
