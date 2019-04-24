@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -47,6 +47,33 @@
     </section>
 
     <section id="backgroundBottom">
+      <nav>
+        <h2
+          id="cennikText"
+          onmouseover="glowUpCennik()"
+          onmouseout="stopGlowingCennik()"
+        >
+          Cenník
+        </h2>
+        <h2
+          id="objednatText"
+          onmouseover="glowUpObjednat()"
+          onmouseout="stopGlowingObjednat()"
+        >
+          Objednať
+        </h2>
+        <h2
+          id="portfolioText"
+          onmouseover="glowUpPortfolio()"
+          onmouseout="stopGlowingPortfolio()"
+        >
+          Portfólio
+        </h2>
+        <h1 id="posledneZakazkyText">Posledné Zákazky</h1>
+      </nav>
+      <div id="imgSlot1"></div>
+      <div id="imgSlot2"></div>
+      <div id="imgSlot3"></div>
       <div id="scrollButtonSlot2">
         <button onclick="scrollToTop()" id="scrollTopButton"></button>
       </div>
