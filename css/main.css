@@ -180,7 +180,7 @@ a a:active {
 }
 
 #backgroundBottom #imgSlot1 {
-  position: relative;
+  position: absolute;
   background-color: rgba(173, 216, 230, 0.068);
   border: solid 1px;
   border-color: rgba(255, 0, 0, 0.26);
@@ -189,6 +189,30 @@ a a:active {
   height: 22.6vw;
   top: 50vh;
   left: 12.5vh;
+}
+
+#backgroundBottom #imgSlot2 {
+  position: absolute;
+  background-color: rgba(173, 216, 230, 0.068);
+  border: solid 1px;
+  border-color: rgba(255, 0, 0, 0.26);
+  display: block;
+  width: 22.6vw;
+  height: 22.6vw;
+  top: 50vh;
+  left: 77vh;
+}
+
+#backgroundBottom #imgSlot3 {
+  position: absolute;
+  background-color: rgba(173, 216, 230, 0.068);
+  border: solid 1px;
+  border-color: rgba(255, 0, 0, 0.26);
+  display: block;
+  width: 22.6vw;
+  height: 22.6vw;
+  top: 50vh;
+  left: 141vh;
 }
 
 #backgroundBottom #scrollTopButton {
